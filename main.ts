@@ -12,7 +12,7 @@ if (!MONGO_URL) {
 }
 
 const mongoClient = new MongoClient(MONGO_URL);
-await mongoClient.connect(); //Conecta la base de datos
+await mongoClient.connect(); 
 
 console.info("Conectado a MongoDB");
 
